@@ -7,6 +7,6 @@ setup(
     description='My private package from private github repo',
     url='https://github.com/naveeeen3000/booklib.git',
     license='unlicense',
-    packages=find_packages(include=['book']),
+    packages=['book'],
     zip_safe=False
 )
